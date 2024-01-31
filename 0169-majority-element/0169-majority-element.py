@@ -1,14 +1,18 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        dict1 = {}
-        majority_count = 1
-        majority_key = nums[0]
-        for i in nums:
-            if i not in dict1:
-                dict1[i] = 1
+        nums.sort()
+        max_count = 1
+        temp_count = 1
+        majority_element = nums[0]
+        x = 1
+        for x in range(len(nums)):
+            if nums[x] == nums[x-1]:
+                temp_count+=1
+                if temp_count > max_count:
+                    max_count = temp_count
+                    majority_element = nums[x]
             else:
-                dict1[i]+=1
-                if  dict1.get(i, 0) > majority_count:
-                    majority_count = dict1[i]
-                    majority_key = i
-        return majority_key
+                temp_count = 1
+                
+            
+        return majority_element
