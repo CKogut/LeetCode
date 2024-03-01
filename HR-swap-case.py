@@ -5,5 +5,6 @@ def swap_case(s):
         
     return swapped
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
+    print(swap_case("Hello"))

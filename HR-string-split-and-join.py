@@ -2,8 +2,9 @@
 
 def split_and_join(line):
     # write your code here
-    result  = line.split(' ')
-    return "-".join(result)
+    answer = line.split(' ')
+    return "-".join(answer)
+
 
 if __name__ == '__main__':
     line = input()
