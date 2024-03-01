@@ -6,3 +6,4 @@ def swap_case(s):
     return swapped
 
 if __name__ == '__main__':
+
