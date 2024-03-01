@@ -7,4 +7,5 @@ latitude, longitude, city, country = location
 print(latitude)
 print(longitude)
 print(city)
+print(country)
 
