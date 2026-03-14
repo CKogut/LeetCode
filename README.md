@@ -5,4 +5,9 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [1580-shuffle-the-array](https://github.com/CKogut/LeetCode/tree/master/1580-shuffle-the-array) |
+| [2058-concatenation-of-array](https://github.com/CKogut/LeetCode/tree/master/2058-concatenation-of-array) |
+## Simulation
+|  |
+| ------- |
+| [2058-concatenation-of-array](https://github.com/CKogut/LeetCode/tree/master/2058-concatenation-of-array) |
 <!---LeetCode Topics End-->
