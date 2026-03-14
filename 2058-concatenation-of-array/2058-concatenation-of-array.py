@@ -4,4 +4,11 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        return nums*2
+        result = list(nums)
+        count = 0
+        while count < len(nums):
+            x = nums[count]
+            result.append(x)
+            count+=1
+
+        return result
