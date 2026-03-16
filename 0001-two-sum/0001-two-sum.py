@@ -1,12 +1,14 @@
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        
-        for index, value in enumerate(nums):
-            value2 = target - value 
-            for x in range(index+1, len(nums)):
-                if nums[x] == value2:
-                    return index, x
-                else:
-                    x+=1
-
-
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        hashmap = {}
+        for i, num in enumerate(nums):
+            value2 = target - num
+            if value2 in hashmap:
+                return [i, hashmap[value2]]
+            hashmap[num] = i
+        return []
