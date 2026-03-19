@@ -1,3 +1,9 @@
+# Note regarding my approach
+03/19/2024 - I am currently working my way through various LeetCode questions, including ones I have solved previosuly. I make an attempt to solve the problem with the knowledge I have, which generally results
+in a brute force approach, as of now. I then research the topics associated with question, improve my knowledge base and then reattempt the solution. This does mean I sometimes work backwards from an existing solution, but I do not resubmit until I fully understand and can explain what the code is doing.
+
+
+# Original README
 A collection of LeetCode questions to ace the coding interviews! - Created using [LeetHub 2.0 for Firefox](https://github.com/maitreya2954/LeetHub-2.0-Firefox)
 <!---LeetCode Topics Start-->
 # LeetCode Topics
