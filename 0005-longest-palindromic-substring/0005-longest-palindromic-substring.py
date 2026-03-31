@@ -15,13 +15,14 @@ class Solution(object):
         
         # So... how to do that?
 
-        # Track the indices of the longest valid string
+        # Track the indices of the longest valid slice
         resStart, resLen = 0, 0
 
         for i in range(len(s)):
             # odd, sets center as 1 char
             l, r = i, i
             # while in bounds and the window is a valid palindrome
+            # we only have to compare the ends of the slice, since we start with a valid slice
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 # if this valid substring is longer then the currently stored valid substring
                 if(r - l + 1) > resLen:
