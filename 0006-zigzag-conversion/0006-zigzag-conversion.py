@@ -30,5 +30,12 @@ class Solution(object):
                 direction = -direction
             # move to the correct list, up or down
             currentRow += direction
-            
-        return ''.join(chain(*matrix))
+
+        # So honestly, I wouldn't have known about chain so I've changed to what I initially planned
+        # return ''.join(chain(*matrix))
+
+        result = ''
+        for i in range(numRows):
+            result += ''.join(matrix[i])
+
+        return result
