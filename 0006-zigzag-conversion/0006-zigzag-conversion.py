@@ -39,3 +39,6 @@ class Solution(object):
             result += ''.join(matrix[i])
 
         return result
+
+        # There are math based solutions which are quicker. I inititally was trying to work that out, got myself turned around and came back to the matrix idea.
+
