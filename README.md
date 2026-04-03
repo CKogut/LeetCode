@@ -81,4 +81,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/CKogut/LeetCode/tree/master/0005-longest-palindromic-substring) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/CKogut/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
